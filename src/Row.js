@@ -20,7 +20,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
         fetchData();
     }, [fetchUrl]); //included here cause it's a dependant on a variable that is called outside on useEffect, everytime fetchUrl changes we need to update our useEffect
 
-    console.log(movies);
 
   return (
     <div className="row">

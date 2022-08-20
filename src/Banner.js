@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import axios from './axios';
 import requests from './requests';
+import './Banner.css';
 
 function Banner() {
     const [movie, setMovie] = useState([]);
@@ -19,10 +20,11 @@ function Banner() {
         fetchData();
     }, []);
 
-    console.log(movie)
+    console.log(movie);
 
   return (
-    <header className="banner"
+    <header 
+        className="banner"
         style={{
             backgroundSize: "cover",
             backgroundImage: `url(
@@ -32,15 +34,16 @@ function Banner() {
         }}
     >
         <div className="banner__contents">
-            <h1> {movie?.title || movie?.name || movie?.original_name} </h1>
+            <h1 className="banner__title"> {movie?.title || movie?.name || movie?.original_name} </h1>
 
             <div className="banner__buttons">
-                <button className="banner__button"></button>
-                <button className="banner__button"></button>
+                <button className="banner__button">Play</button>
+                <button className="banner__button">My List</button>
             </div>
 
-        </div>
 
+            <h1 className="banner__description">{movie?.overview}</h1>
+        </div>
     </header>
   )
 }

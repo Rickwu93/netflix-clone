@@ -8,8 +8,8 @@ Check out the app: https://netflix-clone-613e9.web.app/
 
 ## Project Screenshots
 
-![s1](../build/s1.png)
-![s2](../build/s2.png)
+![s1](https://github.com/Rickwu93/netflix-clone/blob/main/Docs/s1.png?raw=true)
+![s2](https://github.com/Rickwu93/netflix-clone/blob/main/Docs/s2.png?raw=true)
 
 ### `npm start`
 In the project directory, you can run:

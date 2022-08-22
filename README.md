@@ -4,8 +4,12 @@ This project was build using react as a Netflix clone and for learning purposes.
 
 ## Firebase Deployment
 
-https://netflix-clone-613e9.web.app/
+Check out the app: https://netflix-clone-613e9.web.app/
 
+## Project Screenshots
+
+![s1](build/s1.png)
+![s2](build/s2.png)
 
 ### `npm start`
 In the project directory, you can run:
